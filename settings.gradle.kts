@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Comprog"
+rootProject.name = "McsOnlineSchoolUniform - Pre order"
 include(":app")
+ 

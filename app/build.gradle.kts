@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.comprog"
+    namespace = "com.example.mcsonlineschooluniform_preorder"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.comprog"
+        applicationId = "com.example.mcsonlineschooluniform_preorder"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -32,9 +32,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.activity.ktx)
     implementation(libs.appcompat)
-    implementation(libs.constraintlayout)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
