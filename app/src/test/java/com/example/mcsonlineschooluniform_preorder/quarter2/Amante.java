@@ -2,12 +2,12 @@ package com.example.mcsonlineschooluniform_preorder.quarter2;
 
 import org.junit.Test;
 
- public class Amante {
+public class Amante {
     @Test
     public void printMyProfile() {
-        String myName = "Micha";
-        String petName = "Brownie";
-        String favFood = "Sinigang";
+        String myName = "MICHA";
+        String petName = "BROWNIE";
+        String favFood = "SINIGANG";
         int myAge = 17;
 
         System.out.println("--- MY DIGITAL PROFILE ---");
@@ -15,4 +15,4 @@ import org.junit.Test;
         System.out.println("I have a wonderful pet named " + petName + ".");
         System.out.println("If I could, I would eat " + favFood + " every single day!");
     }
- }
+}
